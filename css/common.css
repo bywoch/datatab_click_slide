@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* CSS 초기화 */
+* {margin: 0 auto; padding: 0; box-sizing: border-box;}
+html {overflow-y: scroll;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none; color: inherit;}
+img {max-width: 100%; border: none; vertical-align: middle;}
+nav ul, li {list-style: none;}
+address {font-style: normal;}
+table {border-collapse: collapse; width: 100%;}
+th {font-weight: normal; text-align: left;}
+caption {text-indent: -9999px; height: 0; overflow: hidden; line-height: 0;}
+body, input, select, textarea, button {font: 14px/1.3 'NanumBarunGothic', 'Noto Sans CJK KR', 'Noto Sans KR', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+input, select, textarea {border: 1px solid #bbb;}
+*:after, *:before {box-sizing: border-box;}
+.cf:after, .cf:before {content: ''; clear: both; display: block;}
+.blind {position: absolute; left: -9999px;}
+#container {width: 100%;}
+#container>div {width: 100%; margin: 0 auto;}
+#container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
+#container .information {width: 1280px; padding-top: 96px; margin-bottom: 96px;}
