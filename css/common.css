@@ -17,6 +17,7 @@ input, select, textarea {border: 1px solid #bbb;}
 .cf:after, .cf:before {content: ''; clear: both; display: block;}
 .blind {position: absolute; left: -9999px;}
 #container {width: 100%;}
+<<<<<<< HEAD
 #container > div {width: 100%; margin: 0 auto;}
 #container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
 
@@ -59,3 +60,8 @@ input, select, textarea {border: 1px solid #bbb;}
 .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_02 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_02 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
 .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_03 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_03 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
 /*-- //guide_map --*/
+=======
+#container>div {width: 100%; margin: 0 auto;}
+#container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
+#container .information {width: 1280px; padding-top: 96px; margin-bottom: 96px;}
+>>>>>>> ecb1f87 (upload files)
