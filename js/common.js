@@ -23,8 +23,11 @@ $(document).ready(function () {
 
         $(this).addClass('current');
         $("#" + tab_id).addClass('current');
-
-        $('.gm_slider li:eq(1)').attr('aria-hidden', 'false');
+        $('.gm_slider').css({
+            'position': 'relative',
+            'transition-duration': '0.2s',
+            'transform': 'translate3d(-660px, 0px, 0px)'
+        });
     });
     $('.gs_01').bxSlider({
         auto: false,
@@ -38,13 +41,7 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
-        pagerCustom: '#gm_slt_02',
-        onSlideAfter: function($slideElement, oldIndex, newIndex) {
-        // newIndex 값이 1인 경우 (두 번째 li 요소) aria-hidden 속성 값을 "false"로 설정
-        if (newIndex === 1) {
-            $slideElement.next().attr('aria-hidden', 'false');
-        }
-    }
+        pagerCustom: '#gm_slt_02'
         
     });
     $('.gs_03').bxSlider({
@@ -52,13 +49,7 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
-        pagerCustom: '#gm_slt_03',
-        onSlideAfter: function($slideElement, oldIndex, newIndex) {
-        // newIndex 값이 1인 경우 (두 번째 li 요소) aria-hidden 속성 값을 "false"로 설정
-        if (newIndex === 1) {
-            $slideElement.next().attr('aria-hidden', 'false');
-        }
-    }
+        pagerCustom: '#gm_slt_03'
     });
 
 });
