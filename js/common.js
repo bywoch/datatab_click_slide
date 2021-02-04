@@ -1,5 +1,8 @@
 $(document).ready(function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c81318d (update js)
     /*-- ※ guide_map Area Strat ※ --*/
     $('.gbt-01').click(function () {
         $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-01').css('background', 'url(images/nvz_on-001.png) 0 0 no-repeat');
@@ -24,11 +27,16 @@ $(document).ready(function () {
 
         $(this).addClass('current');
         $("#" + tab_id).addClass('current');
+<<<<<<< HEAD
         $('.gm_slider').css({
             'position': 'relative',
             'transition-duration': '0.2s',
             'transform': 'translate3d(-660px, 0px, 0px)'
         });
+=======
+
+        $('.gm_slider li:eq(1)').attr('aria-hidden', 'false');
+>>>>>>> c81318d (update js)
     });
     $('.gs_01').bxSlider({
         auto: false,
@@ -42,7 +50,17 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
+<<<<<<< HEAD
         pagerCustom: '#gm_slt_02'
+=======
+        pagerCustom: '#gm_slt_02',
+        onSlideAfter: function($slideElement, oldIndex, newIndex) {
+        // newIndex 값이 1인 경우 (두 번째 li 요소) aria-hidden 속성 값을 "false"로 설정
+        if (newIndex === 1) {
+            $slideElement.next().attr('aria-hidden', 'false');
+        }
+    }
+>>>>>>> c81318d (update js)
         
     });
     $('.gs_03').bxSlider({
@@ -50,9 +68,20 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
+<<<<<<< HEAD
         pagerCustom: '#gm_slt_03'
     });
 =======
 >>>>>>> 7353dfa (upload files)
+=======
+        pagerCustom: '#gm_slt_03',
+        onSlideAfter: function($slideElement, oldIndex, newIndex) {
+        // newIndex 값이 1인 경우 (두 번째 li 요소) aria-hidden 속성 값을 "false"로 설정
+        if (newIndex === 1) {
+            $slideElement.next().attr('aria-hidden', 'false');
+        }
+    }
+    });
+>>>>>>> c81318d (update js)
 
 });

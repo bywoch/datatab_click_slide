@@ -20,6 +20,7 @@ input, select, textarea {border: 1px solid #bbb;}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #container > div {width: 100%; margin: 0 auto;}
 #container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
 
@@ -73,6 +74,13 @@ input, select, textarea {border: 1px solid #bbb;}
 
 /*-- guide_map --*/
 #container .guide_map {height: 750px; background: #759fd0; background-position: center; background-size: cover; margin-top: 85px; margin-top: 90px;}
+=======
+#container > div {width: 100%; margin: 0 auto;}
+#container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
+
+/*-- guide_map --*/
+#container .guide_map {height: 750px; background: #759fd0 url('../images/gdm_bg-001.jpg') 0 0 no-repeat; background-position: center; background-size: cover; margin-top: 85px; margin-top: 90px;}
+>>>>>>> c3b7377 (update html css)
 .guide_map .gm_wrap {width: 1320px; padding: 105px 20px 88px 20px; margin: 0 auto; position: relative;}
 .guide_map .gm_wrap h4 {font-size: 40px; color: #FFF; margin-bottom: 55px; font-weight: 900;}
 .guide_map .gm_wrap .gm_btn_bx {position: absolute; top: 120px; right: 50%; margin-right: -640px;}
@@ -110,9 +118,12 @@ input, select, textarea {border: 1px solid #bbb;}
 .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_02 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_02 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
 .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_03 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_03 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
 /*-- //guide_map --*/
+<<<<<<< HEAD
 >>>>>>> 430585f (update html css)
 =======
 #container>div {width: 100%; margin: 0 auto;}
 #container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
 #container .information {width: 1280px; padding-top: 96px; margin-bottom: 96px;}
 >>>>>>> 7353dfa (upload files)
+=======
+>>>>>>> c3b7377 (update html css)
