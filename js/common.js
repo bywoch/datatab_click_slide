@@ -28,15 +28,21 @@ $(document).ready(function () {
         $(this).addClass('current');
         $("#" + tab_id).addClass('current');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 811f7ac (update js)
         $('.gm_slider').css({
             'position': 'relative',
             'transition-duration': '0.2s',
             'transform': 'translate3d(-660px, 0px, 0px)'
         });
+<<<<<<< HEAD
 =======
 
         $('.gm_slider li:eq(1)').attr('aria-hidden', 'false');
 >>>>>>> c81318d (update js)
+=======
+>>>>>>> 811f7ac (update js)
     });
     $('.gs_01').bxSlider({
         auto: false,
@@ -51,6 +57,7 @@ $(document).ready(function () {
         hideControlOnEnd: true,
         moveSlides: 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
         pagerCustom: '#gm_slt_02'
 =======
         pagerCustom: '#gm_slt_02',
@@ -61,6 +68,9 @@ $(document).ready(function () {
         }
     }
 >>>>>>> c81318d (update js)
+=======
+        pagerCustom: '#gm_slt_02'
+>>>>>>> 811f7ac (update js)
         
     });
     $('.gs_03').bxSlider({
@@ -68,6 +78,7 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
         pagerCustom: '#gm_slt_03'
     });
@@ -81,6 +92,9 @@ $(document).ready(function () {
             $slideElement.next().attr('aria-hidden', 'false');
         }
     }
+=======
+        pagerCustom: '#gm_slt_03'
+>>>>>>> 811f7ac (update js)
     });
 >>>>>>> c81318d (update js)
 
