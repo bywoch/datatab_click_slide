@@ -21,6 +21,7 @@ input, select, textarea {border: 1px solid #bbb;}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #container > div {width: 100%; margin: 0 auto;}
 #container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
 
@@ -127,3 +128,8 @@ input, select, textarea {border: 1px solid #bbb;}
 >>>>>>> 7353dfa (upload files)
 =======
 >>>>>>> c3b7377 (update html css)
+=======
+#container>div {width: 100%; margin: 0 auto;}
+#container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
+#container .information {width: 1280px; padding-top: 96px; margin-bottom: 96px;}
+>>>>>>> ecb1f87 (upload files)

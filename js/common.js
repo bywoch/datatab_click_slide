@@ -1,6 +1,7 @@
 $(document).ready(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c81318d (update js)
     /*-- ※ guide_map Area Strat ※ --*/
@@ -97,5 +98,7 @@ $(document).ready(function () {
 >>>>>>> 811f7ac (update js)
     });
 >>>>>>> c81318d (update js)
+=======
+>>>>>>> ecb1f87 (upload files)
 
 });
