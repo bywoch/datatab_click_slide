@@ -34,13 +34,17 @@ $(document).ready(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 811f7ac (update js)
+=======
+>>>>>>> 1d48ade (update js)
         $('.gm_slider').css({
             'position': 'relative',
             'transition-duration': '0.2s',
             'transform': 'translate3d(-660px, 0px, 0px)'
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -52,6 +56,8 @@ $(document).ready(function () {
 
         $('.gm_slider li:eq(1)').attr('aria-hidden', 'false');
 >>>>>>> 3d49372 (update js)
+=======
+>>>>>>> 1d48ade (update js)
     });
     $('.gs_01').bxSlider({
         auto: false,
@@ -65,6 +71,7 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +93,9 @@ $(document).ready(function () {
 >>>>>>> 811f7ac (update js)
 =======
 >>>>>>> 3d49372 (update js)
+=======
+        pagerCustom: '#gm_slt_02'
+>>>>>>> 1d48ade (update js)
         
     });
     $('.gs_03').bxSlider({
@@ -93,6 +103,7 @@ $(document).ready(function () {
         controls: true,
         hideControlOnEnd: true,
         moveSlides: 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +125,9 @@ $(document).ready(function () {
 =======
         pagerCustom: '#gm_slt_03'
 >>>>>>> 811f7ac (update js)
+=======
+        pagerCustom: '#gm_slt_03'
+>>>>>>> 1d48ade (update js)
     });
 >>>>>>> c81318d (update js)
 =======
