@@ -1,4 +1,5 @@
 $(document).ready(function () {
+<<<<<<< HEAD
     /*-- ※ guide_map Area Strat ※ --*/
     $('.gbt-01').click(function () {
         $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-01').css('background', 'url(images/nvz_on-001.png) 0 0 no-repeat');
@@ -51,5 +52,7 @@ $(document).ready(function () {
         moveSlides: 1,
         pagerCustom: '#gm_slt_03'
     });
+=======
+>>>>>>> 7353dfa (upload files)
 
 });
