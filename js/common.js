@@ -1,22 +1,12 @@
 $(document).ready(function () {
     /*-- ※ guide_map Area Strat ※ --*/
-    $('.gbt-01').click(function () {
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-01').css('background', 'url(images/nvz_on-001.png) 0 0 no-repeat');
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-02').css('background', 'url(images/nvz_off-002.png) 0 0 no-repeat');
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-03').css('background', 'url(images/nvz_off-003.png) 0 0 no-repeat');
-    });
-    $('.gbt-02').click(function () {
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-02').css('background', 'url(images/nvz_on-002.png) 0 0 no-repeat');
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-01').css('background', 'url(images/nvz_off-001.png) 0 0 no-repeat');
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-03').css('background', 'url(images/nvz_off-003.png) 0 0 no-repeat');
-    });
-    $('.gbt-03').click(function () {
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-03').css('background', 'url(images/nvz_on-003.png) 0 0 no-repeat');
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-01').css('background', 'url(images/nvz_off-001.png) 0 0 no-repeat');
-        $('.guide_map .gm_wrap .gm_btn_bx ul .gbt-02').css('background', 'url(images/nvz_off-002.png) 0 0 no-repeat');
-    });
+    // 클릭 이벤트 핸들러 함수를 하나로 통합
     $('.guide_map .gm_wrap .gm_btn_bx ul.tabs li').click(function () {
         var tab_id = $(this).attr('data-tab');
+
+        // 배경 이미지 초기화
+        $('.guide_map .gm_wrap .gm_btn_bx ul.tabs li').css('background', 'url(images/nvz_off-001.png) 0 0 no-repeat');
+        $(this).css('background', 'url(images/nvz_on-001.png) 0 0 no-repeat');
 
         $('ul.tabs li').removeClass('current');
         $('.gm_bx').removeClass('current');
@@ -29,27 +19,20 @@ $(document).ready(function () {
             'transform': 'translate3d(-660px, 0px, 0px)'
         });
     });
-    $('.gs_01').bxSlider({
-        auto: false,
-        controls: true,
-        hideControlOnEnd: true,
-        moveSlides: 1,
-        pagerCustom: '#gm_slt_01'
-    });
-    $('.gs_02').bxSlider({
-        auto: false,
-        controls: true,
-        hideControlOnEnd: true,
-        moveSlides: 1,
-        pagerCustom: '#gm_slt_02'
-        
-    });
-    $('.gs_03').bxSlider({
-        auto: false,
-        controls: true,
-        hideControlOnEnd: true,
-        moveSlides: 1,
-        pagerCustom: '#gm_slt_03'
-    });
 
+    // bxSlider 초기화를 함수로 통합
+    function initializeBxSlider(selector, pagerCustom) {
+        $(selector).bxSlider({
+            auto: false,
+            controls: true,
+            hideControlOnEnd: true,
+            moveSlides: 1,
+            pagerCustom: pagerCustom
+        });
+    }
+
+    // bxSlider 초기화 함수 호출
+    initializeBxSlider('.gs_01', '#gm_slt_01');
+    initializeBxSlider('.gs_02', '#gm_slt_02');
+    initializeBxSlider('.gs_03', '#gm_slt_03');
 });
